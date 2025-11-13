@@ -121,7 +121,7 @@ XStatic-Jasmine===2.4.1.2
 googleapis-common-protos===1.55.0
 python-glanceclient===3.6.0
 pyinotify===0.9.6
-debtcollector===2.5.0
+debtcollector===3.0.0
 requests-unixsocket===0.3.0
 responses===0.17.0;python_version=='3.6'
 responses===0.18.0;python_version=='3.8'
@@ -400,7 +400,7 @@ protobuf===3.19.5
 sushy===4.1.7
 python-neutronclient===7.8.0
 pika===1.2.0
-oslo.cache===2.10.1
+oslo.cache===3.12.0
 WebTest===3.0.0
 openstack.nose-plugin===0.11
 os-collect-config===13.1.0
@@ -446,7 +446,7 @@ pyparsing===3.0.7
 geomet===0.2.1.post1
 distlib===0.3.4
 XStatic-Moment-Timezone===0.5.22.0
-dogpile.cache===1.1.5
+dogpile.cache===1.5.0
 python-barbicanclient===5.3.0
 salt===3004
 api-object-schema===2.0.0
