@@ -6,7 +6,8 @@ rsa===4.8
 restructuredtext-lint===1.4.0
 netmiko===3.4.0
 sshtunnel===0.4.0
-PasteDeploy===2.1.1
+PasteDeploy===2.1.1;python_version<'3.12'
+PasteDeploy===3.1.0;python_version>='3.12'
 typing===3.7.4.3
 python-saharaclient===3.5.0
 Routes===2.5.1
@@ -541,7 +542,8 @@ pyroute2.core===0.6.6
 python-designateclient===4.5.1
 pyroute2.ipdb===0.6.6
 future===0.18.2
-Paste===3.5.0
+Paste===3.5.0;python_version<'3.12'
+Paste===3.10.1;python_version>='3.12'
 pytest-django===4.5.2
 jaeger-client===4.6.1;python_version=='3.6'
 jaeger-client===4.8.0;python_version=='3.8'
