@@ -155,7 +155,8 @@ jsonpath-rw===1.4.0
 prettytable===2.5.0;python_version=='3.6'
 prettytable===3.1.1;python_version=='3.8'
 prettytable===3.3.0;python_version=='3.9'
-vine===5.0.0
+vine===5.0.0;python_version<'3.12'
+vine===5.1.0;python_version>='3.12'
 pyroute2.nftables===0.6.6
 taskflow===4.6.4
 traceback2===1.4.0
@@ -246,7 +247,8 @@ XStatic-Bootstrap-SCSS===3.4.1.0
 pyzabbix===1.0.0
 ptyprocess===0.7.0
 threadloop===1.0.2
-amqp===5.0.9
+amqp===5.0.9;python_version<'3.12'
+amqp===5.2.0;python_version>='3.12'
 ruamel.yaml===0.17.21
 websockify===0.10.0
 gssapi===1.7.3
@@ -497,6 +499,7 @@ dfs-sdk===1.2.27
 sentinels===1.0.0
 kombu===5.1.0;python_version=='3.6'
 kombu===5.2.3;python_version=='3.8'
+kombu===5.4.0;python_version>='3.12'
 pyroute2.ndb===0.6.6
 distro===1.7.0
 zstd===1.5.1.0
