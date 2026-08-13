@@ -13,7 +13,8 @@ python-saharaclient===3.5.0
 Routes===2.5.1
 rtslib-fb===2.1.74
 oslo.limit===1.5.1
-tzdata===2021.5
+tzdata===2021.5;python_version<'3.12'
+tzdata===2025.1;python_version>='3.12'
 smmap===5.0.0
 confget===4.1.0
 XStatic-Angular-Bootstrap===2.5.0.0
@@ -175,9 +176,10 @@ pyroute2.ethtool===0.6.6;python_version<'3.12'
 XStatic-roboto-fontface===0.5.0.0
 pyudev===0.23.2
 eventlet===0.33.0;python_version<'3.12'
-eventlet===0.36.1;python_version>='3.12'
+eventlet===0.39.0;python_version>='3.12'
 openstack-doc-tools===3.3.0
-oslo.messaging===12.13.3
+oslo.messaging===12.13.3;python_version<'3.12'
+oslo.messaging===14.3.1;python_version>='3.12'
 jira===3.1.1
 extras===1.0.0
 PyJWT===2.3.0
@@ -249,7 +251,7 @@ pyzabbix===1.0.0
 ptyprocess===0.7.0
 threadloop===1.0.2
 amqp===5.0.9;python_version<'3.12'
-amqp===5.2.0;python_version>='3.12'
+amqp===5.3.1;python_version>='3.12'
 ruamel.yaml===0.17.21
 websockify===0.10.0
 gssapi===1.7.3
@@ -500,7 +502,7 @@ dfs-sdk===1.2.27
 sentinels===1.0.0
 kombu===5.1.0;python_version=='3.6'
 kombu===5.2.3;python_version=='3.8'
-kombu===5.4.0;python_version>='3.12'
+kombu===5.4.2;python_version>='3.12'
 pyroute2.ndb===0.6.6;python_version<'3.12'
 distro===1.7.0
 zstd===1.5.1.0
@@ -571,6 +573,7 @@ CouchDB===1.2
 netifaces===0.11.0
 cachetools===4.2.4;python_version=='3.6'
 cachetools===5.0.0;python_version=='3.8'
+cachetools===5.5.2;python_version>='3.12'
 ws4py===0.5.1
 sphinxcontrib-qthelp===1.0.3
 keystoneauth1===4.5.0
