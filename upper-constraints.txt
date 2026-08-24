@@ -660,5 +660,5 @@ sphinxcontrib-applehelp===1.0.2
 scikit-learn===0.24.2;python_version=='3.6'
 scikit-learn===1.0.2;python_version=='3.8'
 setuptools===59.6.0;python_version=='3.6'
-setuptools===60.9.3;python_version=='3.8'
+setuptools===67.8.0;python_version>='3.8' and python_version<'3.12'
 pyasyncore===1.0.5;python_version>='3.12'
